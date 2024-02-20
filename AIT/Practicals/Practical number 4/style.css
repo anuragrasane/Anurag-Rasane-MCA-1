@@ -1,0 +1,15 @@
+.top{
+    background-image: url('C:\Users/Lab2 Pc-152/Pictures/Screenshots/2.png');
+    background-repeat: no-repeat;
+    color: red;
+}
+.headtxt{
+    text-decoration:line-through;
+    border-bottom: 1px solid black;
+}
+.smpp{
+        text-transform: uppercase;
+        font-weight: 800;
+        font-size: 25px;
+        font-style: italic;
+}

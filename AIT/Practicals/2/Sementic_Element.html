@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sementic Elemenet page</title>
+    <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      max-width: 400px;
+      margin: auto;
+    }
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input[type="text"],
+    input[type="tel"],
+    input[type="email"],
+    select,
+    input[type="datetime-local"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+    <section>
+    <header role="Banner">
+        <ul><h1>Sementic Elemenet page</h1></ul>
+    </header>
+    <div>
+      <nav>
+        <ul>
+            <li><a href="https://www.Home.com/html"><html>Home</html></a></li>
+            <li><a href="https://www.Aboutus.com/html"><html>About us</html></a></li>
+            <li><a href="https://www.Contactus.com/html"><html>ontact us</html></a></li>
+            <li><a href="file:///D:/pratik2/html/Pro.html"><html>Form</html></a></li>
+           
+        </ul>
+      </nav>
+      <section>
+        <div>
+        <h1><ul>Artical Tital</ul></h1>
+        <article>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita amet nisi atque alias tenetur voluptatibus dolorem, esse laudantium, debitis tempora fugiat officiis quae quos possimus? Minus consectetur velit accusamus ducimus?
+            </p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem saepe porro laboriosam consequuntur? Quaerat rem ducimus corporis animi atque quas voluptate quae, temporibus iure alias mollitia. Inventore blanditiis iusto, esse incidunt quasi voluptatem consequatur animi reprehenderit qui. Nesciunt voluptatibus iure pariatur quasi non consequuntur officiis cum, perspiciatis alias, qui veritatis neque nobis blanditiis nam, at cumque exercitationem aliquid eligendi nisi cupiditate repudiandae odit labore architecto? Debitis?
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum vitae soluta corporis ab nisi voluptate sint placeat rem quo iusto natus beatae sapiente quibusdam, officiis omnis atque magnam, tenetur reprehenderit.</p>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non debitis minus temporibus voluptates, maiores architecto eos laborum iste voluptatibus cum ipsum, reiciendis velit consequuntur aut est, rem repudiandae beatae eligendi?</p>
+             <p>Lorem,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus aperiam facilis sunt illo molestiae quaerat esse laboriosam rem nisi, expedita qui veritatis, odit asperiores laudantium explicabo quo? Repellat voluptatibus quia, explicabo facilis eaque recusandae, dignissimos quis culpa, ex facere corporis vel voluptatem expedita. Ad nostrum nulla corrupti hic molestias! Nostrum. ipsum dolor sit amet consectetur adipisicing elit. Ex, expedita aliquid! Iusto earum qui voluptatem illum voluptates harum magnam ea?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni eveniet explicabo sed sit iusto maiores illo, excepturi, laudantium ullam, accusantium laborum. Quae consequatur dolor temporibus!</p>
+        </article>
+
+      </div>
+      <div>
+        <h1 style="background-color: aqua;" ><center>Student Registration Form</center></h1>
+  <form action="/submit-form" method="post">
+    <div>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div>
+      <label for="address">Address:</label>
+      <input type="text" id="address" name="address">
+    </div>
+    <div>
+      <label for="college">College:</label>
+      <input type="text" id="college" name="college" required>
+    </div>
+    <div>
+      <label for="contact">Contact:</label>
+      <input type="tel" id="contact" name="contact" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </div>
+    <div>
+      <label>Gender:</label>
+      <input type="radio" id="male" name="gender" value="male">Male
+      <input type="radio" id="female" name="gender" value="female">Female
+      <input type="radio" id="other" name="gender" value="other">Other
+      <br/><br/>
+    </div>
+    <div>
+      <label for="graduate">Graduate:</label>
+      <select id="graduate" name="graduate">
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+    </div>
+    <div>
+      <label for="datetime">Date and Time of Registration:</label>
+      <input type="datetime-local" id="datetime" name="datetime">
+    </div>
+    <div>
+      <button type="submit">Submit</button>
+    </div>
+  </form>
+      </div>
+      </section>
+      <section>
+        <footer>
+            <div>
+                <h4><ul>social media link</ul><h4>
+                    <li><a href="www.facebook.com"><html>www.facebook.com</html></a></li>
+                    <li><a href="www.google.com"><html>www.Instagram.com</html></a></li>
+                    <li><a href="www.Instagram.com"><html>www.Instagram.com</html></a></li>
+
+            </div>
+        </footer>
+      </section>
+     </div>
+</section>
+</body>
+</html>

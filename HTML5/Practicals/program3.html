@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+        /* Add some basic styling for the form */
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+    
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            color: black;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            background-color: white;
+        }
+        button {
+            padding: 10px;
+            background-color: turquoise;
+        }
+        body{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample Form</h1>
+    <form>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required autofocus>
+        </div>
+        <div>
+            <label for="address">Address:</label>
+            <label for="state">State:</label>
+            <select name="state" id="state">
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerla">Kerla</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+            </select>
+            <input id="address" name="address" rows="4" cols="50"></textarea>
+        </div>
+        <label for="religion">Religion</label>
+        <input list="browsers" name="browsers">
+        <datalist id="browsers">
+            <option value="Hindu">Hindu</option>
+            <option value="Muslim">Muslim</option>
+            <option value="Jain">Jain</option>
+            <option value="Christian">Christian</option>
+        </datalist>
+        <div>
+            <label for="contact">Contact Number</label>
+            <input type="number" maxlength="10" id="contact" name="contact" required>
+        </div>
+        <div>
+            <label for="email">Email ID:</label>
+            <input type="email" id="email" name="email" required autofocus>
+        </div>
+        <div>
+            <label for="gender">Gender</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div class="graduation">
+            <label for="graduation">Graduation:</label>
+            <input type="checkbox" id="ug" name="graduation" value="UG">
+            <label for ="pg">PG</label>
+            <input type="checkbox" id="pg" name="graduation" value="PG">
+            <label for="ug">UG</label>
+        </div>`
+        <div>
+            <label for="datetime">Date and Time of Registration:</label>
+            <input type="datetime-local" id="datetime" name="datetime">
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
+

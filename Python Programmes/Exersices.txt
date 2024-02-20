@@ -1,0 +1,71 @@
+EXERCISES
+1. Evaluate the following expressions:
+(x < y) or (not (z == y) and (z < x))
+(a) x = 0, y = 6, z = 10
+
+2. Evaluate the following expressions involving arithmetic operators:
+(a) -7 * 20 + 8 / 16 * 2 + 54
+(b) 7 ** 2 // 983
+(c) (7 - 4 * 2) * 10 / 5 ** 2 + 15
+(d) 5 8 10 + 10 - 25 * 8 // 5
+(e) ' hello' * 2 - 5
+3. Evaluate the following expressions involving relational and logical operators:
+(a) 'hi' > 'hello' and 'bye' < 'Bye'
+(b) 'hi' > 'hello' or 'bye' < 'Bye'
+(e) 7 > 8 or 5 < 6 and 'I am fine' > 'I am not fine'
+(d) 10 != 9 and 29 >= 29
+(e) 10 != 9 and 29 >= 29 and 'hi' > 'hello' or 'bye' < 'Bye'
+7く＝2.5
+4. Evaluate the following expressions involving arithmetic, relational, and logical operal
+(a) 5 8 10 + 10 < 50 and 29 >= 29
+(b) 7 ** 2 <= 5 // 9 & 3 or 'bye' < 'Bye'
+(c) 5 & 10 < 10 and - 25 > 1 * 8 // 5
+(d) 7 ** 2 // 4 + 5 > 8 or 5 != 6
+(e) 7 / 4 < 6 and 'I am fine' > 'I am not fine'
+(f) 10 + 6 * 2 ** 2 != 9// 4 - 3 and 29 >= 29 / 9
+(g) 'hello' * 5 > 'hello' or 'bye' < 'Bye'
+(a) 15 & 22
+(b) 15 | 22
+(c) -15 & 22
+(d) -15 | 22
+(e) ~15
+(f)
+~22
+(g) ~ -20
+(h) 15 ^ 22
+(i) 8 << 3
+(j) 40 >> 3
+6. Differentiate between the following operators with the help of examples:
+   (a) = and ==
+   (b) / and %
+   (c) / and //
+   (d) * and **
+7. What output will be displayed when the following commands are executed in Python shell in sequence:
+     (a)
+      >>> a = 6
+      >>> a == 6
+      >>> a < 5.9
+      >>> a > 5.9
+      (b)
+      >>> b = 7
+      >>> b / 6
+  >>> b // 6
+      >>> b / 4
+  >>> b % 4 
+      >>> b % 7
+      >>> b * 2
+  >>> b ** 2
+   a = 6 
+8. Construct logical expressions for representing the following conditions:
+    (a) marks scored should be greater than 300 and less than 400.
+    (b) Whether the value of grade is an uppercase letter.
+    (c) The post is engineer and experience is more than four years.
+9. Identify Python keywords from the following list of words:
+    And, class, PASS, if, exec, PRINT, Not
+10. Write Python statements for the following equations:
+    (a) root1 = -b+√(b^2 –4ac)/2a 
+    (b) result = -2xy –9y +4yx^2/2xy^3 –2y^2 
+    (c) result = e^(cos(1/√x)) cos(x – y)^e + e^(–1/x – x/4 + tan x)
+11. How does the effect of the following two statements differ?
+     (a) x +=10 
+     (b) x=x+10
